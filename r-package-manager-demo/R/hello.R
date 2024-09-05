@@ -1,3 +1,3 @@
 hello <- function(to = 'world') {
-  print(paste0('Hello, ', to, '!'))
+  print(sprintf("Hello, %s!", to))
 }
